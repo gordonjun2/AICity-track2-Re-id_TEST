@@ -4,7 +4,7 @@ import pandas as pd
 
 
 label_dir = opt.data_path
-label_list = pd.read_csv('/content/gdrive/My Drive/AICity-track2-Re-id/datasets/VRIC/vric_probe.txt', header=None).values
+label_list = pd.read_csv('/content/gdrive/My Drive/AICity-track2-Re-id_TEST/datasets/VRIC/vric_probe.txt', header=None).values
 
 
 def mean_ap(distmat, queryset, testset):
